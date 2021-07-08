@@ -16,7 +16,7 @@ HEADERS = {
 
 
 def get_html(url, params=''):
-    # функція яка забирає з сторінки по вказаному URL-адресу і параметру --- html
+    # функція яка забирає          з сторінки по вказаному URL-адресу і параметру --- html
     r = requests.get(url, headers=HEADERS, params=params)
     return r.content
 
